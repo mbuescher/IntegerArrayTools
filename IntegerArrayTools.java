@@ -32,7 +32,7 @@ public class IntegerArrayTools
     return arrayCount;
   }
   
-  
+  // ------------------- METHODS TO FILL THE ARRAY -------------------------
   /** Adds an element to the end of the array. 
     * @param n The element to add
     * @return whether the element was successfully added
@@ -49,8 +49,7 @@ public class IntegerArrayTools
       return false;
   }
   
-  
-  /** Fills the array nums with integers from 1 to n
+    /** Fills the array nums with integers from 1 to n
     * @param n Upper bound for numbers with which to fill the array.
     * @param count the array to fill.  Returns a modified array.
     */
@@ -73,7 +72,7 @@ public class IntegerArrayTools
     
     arrayCount = 0;
     int n = keyboard.nextInt();
-    while (n != -1)
+    while (n != -1)                 // stop input when user enters -1
     {
       addItem(n);
       n = keyboard.nextInt();
@@ -81,8 +80,8 @@ public class IntegerArrayTools
     keyboard.close();
   }
   
+  // -------------------- METHODS TO WORK WITH THE ARRAY --------------------------
   /** Prints the array, spaces between numbers.
-    * @param the array to print.
     */
   public void printArray ()
   {
@@ -92,7 +91,6 @@ public class IntegerArrayTools
   }
   
   /** Find the sum of an integer array
-    * @param the array to sum
     * @return the sum of the elements in the array
     */
   public int sumArray ()
