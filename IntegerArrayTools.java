@@ -115,12 +115,11 @@ public class IntegerArrayTools
     System.out.println ("The sum is " + myArray.sumArray());
     
     // Un-comment these lines one at a time after you have written the appropriate code
-/*    System.out.println ("The largest item is " + myArray.getMax() +
-                        " at index " + myArray.getMaxIndex());
-*/
-/*    System.out.println ("The smallest item is " + myArray.getMin() +
-                        " at index " + myArray.getMinIndex());
-*/
+//    System.out.println ("The largest item is " + myArray.getMax() ); 
+//    System.out.println ("The largest item is at index " + myArray.getMaxIndex());
+
+//    System.out.println ("The smallest item is " + myArray.getMin() );
+//    System.out.println ("The smallest item is at index " + myArray.getMinIndex());
     
   }
 }
